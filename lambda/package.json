@@ -1,6 +1,6 @@
 {
   "name": "alexa-cozytouch-air-conditioner",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "alexa skill to interact with Atlantic Cozytouch air conditioner systems",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,15 @@
     "ask-sdk-core": "^2.7.0",
     "ask-sdk-model": "^1.19.0",
     "aws-sdk": "^2.326.0",
-    "overkiz-api": "^1.0.5"
+    "overkiz-api": "^2.0.1",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^8.15.0"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts"
   }
 }
